@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+html {
+  font-family: "Overpass", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background-color: #121417;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252d37;
+  width: 35rem;
+  height: 36rem;
+  margin: 20rem auto;
+  border-radius: 2rem;
+}
+main section {
+  width: 85%;
+  height: 30rem;
+}
+main section .star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e3742;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+main section .star-container img {
+  width: 1.5rem;
+}
+main section h1 {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 400;
+}
+main section p {
+  color: #959eac;
+  font-size: 1.3rem;
+}
+main section .container-rating {
+  margin-top: 2rem;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+main section .container-rating .rating-box {
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  line-height: 4.2rem;
+  color: white;
+  border-radius: 35rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #2e3742;
+}
+main section .container-rating .rating-box:hover {
+  background-color: #fb7413;
+}
+main section button {
+  margin: 3rem auto;
+  width: 100%;
+  height: 4rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #fb7413;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+main .section-thankYou {
+  text-align: center;
+}
+main .section-thankYou .rating-text-1 {
+  font-size: 1.4rem;
+  display: inline-block;
+  padding: 1.2rem;
+  color: #fb7413;
+  border-radius: 2rem;
+  background-color: #2e3742;
+}
+main .section-thankYou h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+main .section-thankYou .rating-text-2 {
+  font-size: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  background-color: rgba(226, 232, 238, 0.438) !important;
+}
+
+.attribution {
+  font-size: 1.4rem;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

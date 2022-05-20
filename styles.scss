@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+$color-orange:  hsl(25, 97%, 53%);
+$color-white: hsl(0, 0%, 100%);
+$color-light-grey:hsl(217, 12%, 63%);
+$color-dark-blue: hsl(213, 19%, 18%);
+$color-very-dark-blue:hsl(216, 12%, 8%);
+$color-grey-button:hsl(213, 18%, 22%);
+$color-white-gray:hsla(210, 26%, 91%, 0.438);
+
+
+html{
+    font-family: 'Overpass', sans-serif;
+    font-size: 10px;
+}
+body{
+    background-color: $color-very-dark-blue;
+ 
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-dark-blue;
+    width:35rem ;
+    height:36rem ;
+    margin: 20rem auto;
+    border-radius: 2rem;
+    section{
+        width: 85%;
+        height: 30rem;
+        .star-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $color-grey-button;
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            img{
+                width: 1.5rem;
+            }
+        }
+        h1{
+            font-size: 2.5rem;
+            color: $color-white;
+            font-weight: 400;
+        }
+        p{
+            color: $color-light-grey;
+            font-size: 1.3rem;
+        }
+        .container-rating{
+            margin-top: 2rem;
+            height: 4rem;
+            display: flex;
+            justify-content: space-between;
+            .rating-box{
+                height: 4rem;
+                width: 4rem;
+                text-align: center;
+                line-height: 4.2rem;
+                color: $color-white;
+                border-radius: 35rem;
+                font-size: 1.5rem;
+                font-weight: 600;
+                cursor: pointer;
+               background-color:  $color-grey-button;
+             &:hover{
+                 background-color: $color-orange;
+             }
+            }
+        }
+        button{
+            margin: 3rem auto;
+            width: 100%;
+            height: 4rem;
+            border: none;
+            border-radius: 2rem;
+            background-color: $color-orange;
+            color: $color-white;
+            font-weight: 500;
+            letter-spacing: .1rem;
+        }
+        // section thank you styles
+    }
+    .section-thankYou{
+        text-align: center;
+        .rating-text-1{
+            font-size: 1.4rem;
+            display: inline-block;
+            padding: 1.2rem;
+            color: $color-orange;
+            border-radius: 2rem;
+            background-color: $color-grey-button;
+        }
+        h2{
+            color: $color-white;
+            font-size: 2.5rem;
+        }
+        .rating-text-2{
+            font-size: 1.5rem;
+        }
+    }
+}
+.hidden{
+     display: none;
+}
+.active{
+    background-color: $color-white-gray  !important ;
+}
+.attribution{
+    font-size: 1.4rem;
+    color: $color-white;
+}
